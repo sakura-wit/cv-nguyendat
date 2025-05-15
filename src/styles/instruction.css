@@ -1,0 +1,68 @@
+.instruction-control {
+  margin-bottom: 100px;
+}
+
+.instruction-des {
+  padding: 80px;
+}
+
+.instruction-des h3 {
+  color: #aaa6c3;
+}
+
+.instruction-des h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.instruction-des p {
+  max-width: 800px;
+  color: #aaa6c3;
+  font-family: sans-serif;
+  font-size: large;
+  font-weight: 400;
+}
+
+.instruction-list_item_control {
+  display: flex;
+  justify-content: center;
+}
+
+.instruction-list_item_control > * + * {
+  margin-left: 60px;
+}
+
+.instruction-item {
+  position: relative;
+  border: 1px solid rgb(81, 171, 207);
+  border-radius: 1.5rem;
+  max-width: 240px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(21 16 48);
+  color: aliceblue;
+}
+
+.instruction-item::before {
+  position: absolute;
+  content: "";
+  inset: -2px;
+  background: linear-gradient(to top, purple, rgb(81, 171, 207));
+  border-radius: 1.5rem;
+  z-index: -1;
+}
+
+.instruction-item img {
+  width: 80px;
+  height: 80px;
+  margin: auto;
+}
+
+.instruction-item h2 {
+  font-size: 30px;
+  margin: auto;
+}
